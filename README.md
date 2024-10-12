@@ -5,24 +5,14 @@ This project analyzes IPL (Indian Premier League) cricket data by building a dat
 
 **Dataset source**: [IPL Data till 2017](https://data.world/raghu543/ipl-data-till-2017)
 
+## Workflow
+![Workflow](IPL_Workflow.png)
+
 ## Key Features
 - **Data Storage**: IPL dataset uploaded and managed on Amazon S3 (Simple Storage Service).
 - **Data Processing**: Apache Spark used to read and transform the dataset.
 - **SQL Analytics**: SQL queries written to analyze IPL data and uncover trends.
 - **Visualization**: Visualizations created to derive insights from the processed data.
-
-## Workflow
-
-+-------------------+       +-------------------+      +-------------------+
-|   Amazon S3       |  -->  |   Apache Spark     |  --> |   SQL Analytics    | 
-| (Data Storage)    |       | (Data Processing)  |      | (Data Analysis)    | 
-+-------------------+       +-------------------+      +-------------------+
-                                                     
-                          +--------------------------+
-                          |   Data Visualization      |
-                          | (Insights from SQL Data)  |
-                          +--------------------------+
-
 
 ## Summary
 This data set has the ball by ball data of all the Indian Premier League (IPL) matches till 2017 season.
