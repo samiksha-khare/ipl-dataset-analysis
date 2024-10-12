@@ -14,8 +14,5 @@ This project analyzes IPL (Indian Premier League) cricket data by building a dat
 - **SQL Analytics**: SQL queries written to analyze IPL data and uncover trends.
 - **Visualization**: Visualizations created to derive insights from the processed data.
 
-## Summary
-This data set has the ball by ball data of all the Indian Premier League (IPL) matches till 2017 season.
-
 
 
